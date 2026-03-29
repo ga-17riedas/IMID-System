@@ -1,0 +1,63 @@
+GET http://localhost:3000/api/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-26T122257-1.500.txt
+
+###
+
+GET http://localhost:3000/api/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-26T122257.500.txt
+
+###
+
+GET http://localhost:3000/api/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-26T122108.500.txt
+
+###
+
+GET http://localhost:8080/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-08T152944.403.json
+
+###
+
+GET http://localhost:3000/api/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-08T132410.500.txt
+
+###
+
+GET http://localhost:3000/api/auth/test
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-08T131910.500.txt
+
+###
+
+GET http://localhost:3000/api/auth/test-password
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-08T130653.500.txt
+
+###
+

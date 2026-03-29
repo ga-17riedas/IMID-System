@@ -1,0 +1,67 @@
+/* 全局样式定义 */
+
+// 颜色变量
+$primary-color: #1890ff;
+$success-color: #52c41a;
+$warning-color: #faad14;
+$error-color: #f5222d;
+$background-color: #f0f2f5;
+$text-color: #333;
+
+// 基础布局样式
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text-color;
+  background: $background-color;
+}
+
+// 清除浮动
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// 页面通用容器
+.page-container {
+  padding: 20px;
+}
+
+// 主内容区
+.main-content {
+  margin: 24px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+// 统一卡片样式
+.card-panel {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+// 表单样式
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+// 按钮组
+.button-group {
+  margin-top: 20px;
+  text-align: right;
+  
+  button {
+    margin-left: 8px;
+  }
+} 

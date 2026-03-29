@@ -1,0 +1,123 @@
+/* 主题样式变量 */
+
+/* 浅色主题变量 */
+:root,
+.light-theme {
+  --primary-bg: #fff;
+  --secondary-bg: #f0f2f5;
+  --header-bg: #fff;
+  --sidebar-bg: #304156;
+  --text-color: #333;
+  --text-color-secondary: #606266;
+  --border-color: #e6e6e6;
+  --menu-text: #fff;
+  --menu-bg: #304156;
+  --menu-active-text: #409EFF;
+  --menu-hover-bg: #263445;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* 深色主题变量 */
+.dark-theme {
+  --primary-bg: #1f1f1f;
+  --secondary-bg: #121212;
+  --header-bg: #1f1f1f;
+  --sidebar-bg: #1a1a1a;
+  --text-color: #e0e0e0;
+  --text-color-secondary: #a0a0a0;
+  --border-color: #333;
+  --menu-text: #e0e0e0;
+  --menu-bg: #1a1a1a;
+  --menu-active-text: #409EFF;
+  --menu-hover-bg: #2a2a2a;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 主题过渡效果 */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 主题图标样式 */
+.theme-icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--text-color-secondary);
+  transition: color 0.3s;
+}
+
+.theme-icon:hover {
+  color: var(--menu-active-text);
+}
+
+/* 应用主题到核心元素 */
+.el-container {
+  background-color: var(--secondary-bg);
+}
+
+.el-header {
+  background-color: var(--header-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.el-aside {
+  background-color: var(--sidebar-bg) !important;
+}
+
+.el-main {
+  background-color: var(--secondary-bg) !important;
+  color: var(--text-color) !important;
+}
+
+.el-menu {
+  background-color: var(--menu-bg) !important;
+  border-right-color: var(--border-color) !important;
+}
+
+.dark-theme .el-menu--vertical .el-menu-item,
+.dark-theme .el-menu--horizontal .el-menu-item,
+.dark-theme .el-submenu__title {
+  background-color: var(--menu-bg) !important;
+  color: var(--menu-text) !important;
+}
+
+.dark-theme .el-submenu__title:hover,
+.dark-theme .el-menu-item:hover {
+  background-color: var(--menu-hover-bg) !important;
+}
+
+.dark-theme .el-card {
+  background-color: var(--primary-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.dark-theme .el-table {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-color) !important;
+}
+
+.dark-theme .el-table th,
+.dark-theme .el-table tr,
+.dark-theme .el-table td {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.dark-theme .el-input__inner,
+.dark-theme .el-textarea__inner {
+  background-color: #2a2a2a !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+.dark-theme .el-button {
+  border-color: var(--border-color) !important;
+}
+
+.dark-theme .el-button--default {
+  background-color: #2a2a2a !important;
+  color: var(--text-color) !important;
+} 
